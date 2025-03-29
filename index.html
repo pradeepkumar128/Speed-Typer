@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <div class="contaner">
+      <div class="row">
+        <h3>Speed Type Checker</h3>
+
+        <div class="timer-area">
+          <span id="hour">H: 00</span> : 
+          <span id="minute">M: 00</span> :
+          <span id="second">S: 00</span>
+        </div>
+
+        <div class="word-count-area">
+          <span id="total-char">Character: 0 |</span>
+          <span id="total-word">Word: 0 |</span>
+          <span id="total-para">Paragraph: 0</span>
+        </div>
+
+        <div class="input-area">
+          <textarea
+            class="form-control"
+            name="input-data"
+            id="input-data"
+            placeholder="Type here...."
+          ></textarea>
+        </div>
+
+        <div class="btn-area">
+          <span><button id="start-btn">Start Timer</button></span>
+          <span><button id="stop-btn">Stop Timer</button></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

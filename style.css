@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.contaner {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title */
+h3 {
+    font-size: 22px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Timer Area */
+.timer-area {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2980b9;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Word Count Area */
+.word-count-area {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Textarea Input */
+.input-area {
+    margin-top: 15px;
+}
+
+textarea {
+    width: 93%;
+    height: 120px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #2ecc71;
+}
+
+/* Button Area */
+.btn-area {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Icons for Buttons */
+#start-btn::before {
+    content: "\f04b"; /* FontAwesome play icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+#stop-btn::before {
+    content: "\f04d"; /* FontAwesome stop icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
